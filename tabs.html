@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<head>
+	<style>
+		#example div:first-child {
+			display: flex;
+		}
+		#example div:first-child div {
+			background: #eee;
+			padding: 13px 25px;
+			margin: 0 4px;
+			cursor: pointer;
+		}
+
+		#example div:first-child div.active {
+			background: #aaa;
+		}
+
+		#example div:last-child div {
+			display: none;
+		}
+
+		#example div:last-child div.active{
+			display: block;
+		}
+	</style>
+	<script src="./tabs.min.js"></script>
+</head>
+<body>
+	<div id="example">
+		<div>
+			<div>Tab 1</div>
+			<div>Tab 2</div>
+			<div>Tab 3</div>
+		</div>
+		<div>
+			<div>Tab 1 content</div>
+			<div>Tab 2 content</div>
+			<div>Tab 3 content</div>
+		</div>
+	</div>
+<script>
+
+let config = {
+	default_tab: 0,
+	control_tab_class: 'control_tab',
+	content_tab_class: 'content_tab'
+}
+let tab = new Tabs('#example', config);
+
+</script>
+</body>
+</html>
