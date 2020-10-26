@@ -1,4 +1,4 @@
-![npm bundle size](https://img.shields.io/bundlephobia/min/sirrine-simple-tabs?style=plastic)
+[![npm bundle size](https://img.shields.io/bundlephobia/min/sirrine-simple-tabs?style=plastic)](https://www.npmjs.com/package/sirrine-simple-tabs)
 
 # Tabs
 
