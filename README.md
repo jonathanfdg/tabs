@@ -1,3 +1,5 @@
+![npm bundle size](https://img.shields.io/bundlephobia/min/sirrine-simple-tabs?style=plastic)
+
 # Tabs
 
 add js file in `/dist` to head  
